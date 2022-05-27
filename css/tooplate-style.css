@@ -633,9 +633,8 @@ strong {
   }
 
   .card-img-top {
-    padding: 20px;
     display: block;
-    padding: 10px;
+    padding: 20px;
   }
 
   .timeline-info {
@@ -724,6 +723,11 @@ strong {
   text-decoration-style: wavy;
 }
 
+.icon-link {
+  width: 50px;
+  padding: 5px;
+}
+
 .custom-link-icon:hover .icon-link {
   transform: translateY(-10px);
   display: inline-block;
@@ -773,10 +777,7 @@ strong {
   animation-iteration-count: infinite;
 }
 
-.card-img-top {
-  display: block;
-  border-radius: 10px;
-}
+
 
 .card-text {
   text-align: center;
@@ -784,7 +785,7 @@ strong {
   color: #cf7e93;
   font-family: cursive;
   font-weight: bold;
-
+  font-size: 20px;
 }
 
 .menu-footer a {

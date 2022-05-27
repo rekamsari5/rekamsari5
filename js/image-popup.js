@@ -1,44 +1,36 @@
 $(document).ready(function () {
   let data = [
     {
-      img: "images/project/scraper-tool-tokohijau-nodejs.png",
       img_detail: "https://github.com/rekamsari5/scraper-tool-tokohijau-nodejs.git",
       alt: "Scraper Tool Toko Hijau With NodeJs",
       kd :"git"
     },
     {
-      img: "images/project/dataanaludang.png",
       img_detail: "https://github.com/rekamsari5/Dashboard_average_price.git",
       alt: "Shrimp Price Analysis Data With Python",
       kd :"git"
     },
     {
-      img: "images/project/bss.png",
       img_detail: "images/project/bss1.png",
       alt: "Web Centro BSS"
     },
     {
-      img: "images/project/efilling.png",
       img_detail: "images/project/efilling1.png",
       alt: "Web Centro Efilling"
     },
     {
-      img: "images/project/libgrowpal.png",
       img_detail: "images/project/libgrowpal1.png",
       alt: "Web Lib Growpal"
     },
     {
-      img: "images/project/mitragrowpal.png",
       img_detail: "images/project/mitragrowpal1.png",
       alt: "Web Mitra Growpal"
     },
     {
-      img: "images/project/bachelorthesis.png",
       img_detail: "images/project/bachelorthesis1.png",
       alt: "Web Bachelor Thesis"
     },
     {
-      img: "images/project/scientificwriting.png",
       img_detail: "images/project/scientificwriting1.png",
       alt: "Web Scientific Writing "
     },
@@ -56,10 +48,10 @@ function img_project(data) {
               <div class="mb-3">
               ${(data[i]['kd'] == 'git')? 
               ` <a href="${data[i]['img_detail']}" target="_blank" >
-                  <img class="card-img-top" src="${data[i]['img']}" alt="${data[i]['alt']}" kd="${i}">
+                  <img class="card-img-top" src="images/icon/responsive.png" alt="${data[i]['alt']}" kd="${i}">
                 </a>
               ` : 
-              `<img class="card-img-top img_project_link" src="${data[i]['img']}" alt="${data[i]['alt']}" kd="${i}">
+              `<img class="card-img-top img_project_link" src="images/icon/responsive.png" alt="${data[i]['alt']}" kd="${i}">
               `}
               <p class="card-text">${data[i]['alt']}</p>
               </div>
