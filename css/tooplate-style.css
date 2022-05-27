@@ -73,7 +73,7 @@ a:hover {
 
 p {
   font-size: 17px;
-  font-weight: 300;
+  font-weight: normal;
   line-height: 1.5;
   color: black;
 }
@@ -332,7 +332,7 @@ strong {
 }
 
 .color-info {
-  font-weight: 100;
+  font-weight: normal;
   cursor: pointer;
 }
 
