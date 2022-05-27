@@ -10,7 +10,7 @@ https://www.tooplate.com/view/2115-marvel
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 
 body {
-  font-family: "fangsong";
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
   padding-top: 70px;
   background-color: #f3d4dc;
 }
@@ -55,7 +55,7 @@ ul.bar {
 ul.info-txt {
   list-style: none;
   list-style-type: square;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 a {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 p {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 1.5;
   color: black;
