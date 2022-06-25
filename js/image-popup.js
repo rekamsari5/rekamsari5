@@ -1,6 +1,11 @@
 $(document).ready(function () {
   let data = [
     {
+      img_detail: "https://rekamsari5.github.io/images/GoFood-System Analysis - Rekam Sari.pdf",
+      alt: "GoFood- System Analysis",
+      kd :"file"
+    },
+    {
       img_detail: "https://github.com/rekamsari5/scraper-tool-tokohijau-nodejs.git",
       alt: "Scraper Tool Toko Hijau With NodeJs",
       kd :"git"
@@ -46,7 +51,7 @@ function img_project(data) {
     row += 
             `<div class="col-md-3 card-list">
               <div class="mb-3">
-              ${(data[i]['kd'] == 'git')? 
+              ${(data[i]['kd'] == 'git' || data[i]['kd'] == 'file')? 
               ` <a href="${data[i]['img_detail']}" target="_blank" >
                   <img class="card-img-top" src="images/icon/responsive.png" alt="${data[i]['alt']}" kd="${i}">
                 </a>
